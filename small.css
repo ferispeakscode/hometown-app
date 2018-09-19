@@ -29,6 +29,20 @@ div {
   box-sizing: border-box;
 }
 
+nav {
+  width: 300px;
+  position: absolute;
+  /* Move nav off canvas */
+  -webkit-transform: translate(-300px, 0);
+  transform: translate(-300px, 0);
+  transition: transform 0.3s ease;
+}
+
+nav.open {
+  -webkit-transfirm: translate(0, 0);
+  transform: translate(0, 0);
+}
+
 ul {
   list-style: none;
   padding: 0;
