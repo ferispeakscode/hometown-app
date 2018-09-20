@@ -34,16 +34,16 @@ nav {
   height: 6em;
   position: absolute;
   /* Move nav off canvas */
-  -webkit-transform: translate(0, -260px);
+  /* -webkit-transform: translate(0, -260px);
   transform: translate(0, -260px);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease; */
   background-color:#ffffff;
 }
 
-nav.open {
+/* nav.open {
   -webkit-transform: translate(0, 75px);
   transform: translate(0, 75px);
-}
+} */
 
 ul {
   list-style: none;
