@@ -30,12 +30,12 @@ div {
 }
 
 nav {
-  width: 280px;
+  width: 210px;
   height: 100%;
   position: absolute;
   /* Move nav off canvas */
-  -webkit-transform: translate(-280px, 0);
-  transform: translate(-280px, 0);
+  -webkit-transform: translate(-210px, 0);
+  transform: translate(-210px, 0);
   transition: transform 0.3s ease;
   background-color:#E0E0E0;
 }
@@ -113,7 +113,7 @@ ul {
  */
 
 .nav {
-  width: 280px;
+  width: 210px;
   margin-left: auto;
   margin-right: auto;
   z-index: 1;
